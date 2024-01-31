@@ -11,6 +11,10 @@ body {
   font-size: 18px;
 }
 
+p {
+  font-size: 22px;
+}
+
 a {
   color: #6B350F;
   text-decoration: none;
@@ -236,4 +240,5 @@ a:visited {
 
 figcaption {
   text-align: center;
+  font-size: 18px;
 }
