@@ -237,3 +237,31 @@ a:visited {
 figcaption {
   text-align: center;
 }
+
+/* Responsive Design Extra */
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px (e.g., tablets) */
+  body {
+    padding: 30px 50px; /* Adjust padding for smaller screens */
+  }
+
+  #image-container img {
+    margin-right: 10px; /* Reduce margin for smaller screens */
+    width: 200px; /* Adjust image size for smaller screens */
+    height: auto;
+  }
+
+  /* Add more styles as needed for smaller screens */
+}
+
+@media screen and (max-width: 576px) {
+  /* Styles for screens smaller than 576px (e.g., smartphones) */
+  #image-container img {
+    margin-right: 5px; /* Further reduce margin for smaller screens */
+    width: 150px; /* Adjust image size for smaller screens */
+    height: auto;
+  }
+
+  /* Add more styles as needed for smaller screens */
+}
