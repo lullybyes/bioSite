@@ -1,6 +1,6 @@
 h1 {
   color: #6B350F;
-  font-size: 42px;
+  font-size: 5vw; /* Adjusted font size to be responsive */
 }
 
 body {
@@ -8,7 +8,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-size: 18px;
+  font-size: 1.5vw; /* Adjusted font size to be responsive */
 }
 
 a {
@@ -28,12 +28,12 @@ a:visited {
 #navbar {
   display: flex;
   justify-content: center;
-  font-size: 18px;
+  font-size: 1.5vw; /* Adjusted font size to be responsive */
 }
 
 #navbar a {
-  margin-right: 20px;
-  font-size: 18px;
+  margin-right: 2%; /* Adjusted margin to percentage */
+  font-size: 1.5vw; /* Adjusted font size to be responsive */
 }
 
 #navbar a:hover {
@@ -44,20 +44,20 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 10%; /* Adjusted margin to percentage */
 }
 
 #home-link a {
   display: inline-block;
-  width: 150%;
-  padding: 10px 20px;
+  width: 100%; /* Adjusted width to percentage */
+  padding: 1% 2%; /* Adjusted padding to percentage */
   background-color: #227322;
   color: white;
-  border: 4px solid #6B350F;
+  border: 2% solid #6B350F; /* Adjusted border to percentage */
   text-decoration: none;
   text-align: center;
-  border-radius: 5px;
-  margin-bottom: 70px;
+  border-radius: 1vw; /* Adjusted border radius to be responsive */
+  margin-bottom: 7%; /* Adjusted margin to percentage */
 }
 
 #home-link a:hover {
@@ -67,16 +67,16 @@ a:visited {
 
 .green-curve {
   position: relative;
-  margin-top: 60px;
+  margin-top: 6%; /* Adjusted margin to percentage */
 }
 
 .green-curve::before {
   content: '';
   position: absolute;
-  top: 200px;
+  top: 20%; /* Adjusted top position to percentage */
   left: 0;
   width: 100%;
-  height: 20px;
+  height: 1%; /* Adjusted height to percentage */
   background-color: #227322;
   border-radius: 50%;
   z-index: -1;
@@ -85,29 +85,29 @@ a:visited {
 #profilepic img {
   display: block;
   margin: 0 auto;
-  width: 300px; 
+  width: 20%; /* Adjusted width to percentage */
   height: auto;
-  border-radius: 200px;
-  border: solid 15px #6B350F;
+  border-radius: 10%; /* Adjusted border radius to be responsive */
+  border: solid 3% #6B350F; /* Adjusted border to percentage */
 }
 
 #one {
-  border: 1px solid #6B350F;
-  margin: 20px auto;
-  width: 50%;
+  border: 1% solid #6B350F; /* Adjusted border to percentage */
+  margin: 2% auto;
+  width: 50%; /* Adjusted width to percentage */
 }
 
 #two {
-  border: 1px solid #6B350F;
-  margin: 20px auto;
-  width: 30%;
-  margin-bottom: 30px;
+  border: 1% solid #6B350F; /* Adjusted border to percentage */
+  margin: 2% auto;
+  width: 30%; /* Adjusted width to percentage */
+  margin-bottom: 3%; /* Adjusted margin to percentage */
 }
 
 #aboutbody {
-  font-size: 20px;
+  font-size: 1.5vw; /* Adjusted font size to be responsive */
   color: #6B350F;
-  padding: 30px 150px 30px 150px;
+  padding: 3% 10% 3% 10%; /* Adjusted padding to percentage */
 }
 
 #navbarabout {
@@ -117,13 +117,13 @@ a:visited {
 
 #navbarabout a {
   display: inline-block;
-  padding: 5px 10px;
-  margin: 0 10px;
+  padding: 1% 2%; /* Adjusted padding to percentage */
+  margin: 0 2%; /* Adjusted margin to percentage */
   background-color: #F0F0E6;
   color: #6B350F;
   text-decoration: none;
-  border: 2px solid #6B350F;
-  border-radius: 5px;
+  border: 1% solid #6B350F; /* Adjusted border to percentage */
+  border-radius: 2vw; /* Adjusted border radius to be responsive */
 }
 
 #navbarabout a:hover {
@@ -136,12 +136,12 @@ a:visited {
 }
 
 #grad {
-  width: 300px;
+  width: 20%; /* Adjusted width to percentage */
   height: auto;
 }
 
 #grad-text {
-  margin-left: 20px;
+  margin-left: 4%; /* Adjusted margin to percentage */
 }
 
 #nurse-container {
@@ -150,13 +150,13 @@ a:visited {
 }
 
 #nurse {
-  width: 300px;
+  width: 20%; /* Adjusted width to percentage */
   height: auto;
   margin-left: auto;
 }
 
 #nurse-text {
-  margin-right: 20px;
+  margin-right: 4%; /* Adjusted margin to percentage */
 }
 
 #image-container {
@@ -165,21 +165,21 @@ a:visited {
 }
 
 #image-container img {
-  margin-right: 30px;
+  margin-right: 3%; /* Adjusted margin to percentage */
   width: auto;
-  height: 400px;
+  height: 10vw; /* Adjusted height to be responsive */
 }
 
 #coldplay {
   display: block;
-  width: 700px;
+  width: 30%; /* Adjusted width to percentage */
   height: auto;
   margin: 0 auto;
 }
 
 #sunset {
   display: block;
-  width: 650px;
+  width: 25%; /* Adjusted width to percentage */
   height: auto;
   margin: 0 auto;
 }
@@ -189,79 +189,51 @@ a:visited {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 2%; /* Adjusted margin to percentage */
 }
 
 #cook-container img {
-  width: 300px;
+  width: 30%; /* Adjusted width to percentage */
   height: auto;
-  margin: 0 10px;
+  margin: 0 2%; /* Adjusted margin to percentage */
 }
 
 #cook-text {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2%; /* Adjusted margin to percentage */
 }
 
 #hike-container {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 2%; /* Adjusted margin to percentage */
 }
 
 #hike {
-  width: 300px;
+  width: 20%; /* Adjusted width to percentage */
   height: auto;
 }
 
 #hike-text {
-  margin-left: 20px;
+  margin-left: 4%; /* Adjusted margin to percentage */
 }
 
 #plant-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 2%; /* Adjusted margin to percentage */
 }
 
 #plant {
-  width: 300px;
+  width: 20%; /* Adjusted width to percentage */
   height: auto;
 }
 
 #plant-text {
-  margin-right: 20px;
+  margin-right: 4%; /* Adjusted margin to percentage */
 }
 
 figcaption {
   text-align: center;
-}
-
-/* Responsive Design Extra */
-
-@media screen and (max-width: 768px) {
-  /* Styles for screens smaller than 768px (e.g., tablets) */
-  body {
-    padding: 30px 50px; /* Adjust padding for smaller screens */
-  }
-
-  #image-container img {
-    margin-right: 10px; /* Reduce margin for smaller screens */
-    width: 200px; /* Adjust image size for smaller screens */
-    height: auto;
-  }
-
-  /* Add more styles as needed for smaller screens */
-}
-
-@media screen and (max-width: 576px) {
-  /* Styles for screens smaller than 576px (e.g., smartphones) */
-  #image-container img {
-    margin-right: 5px; /* Further reduce margin for smaller screens */
-    width: 150px; /* Adjust image size for smaller screens */
-    height: auto;
-  }
-
-  /* Add more styles as needed for smaller screens */
 }
