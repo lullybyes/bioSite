@@ -1,0 +1,239 @@
+h1 {
+  color: #6B350F;
+  font-size: 42px;
+}
+
+body {
+  background-image: url(images/leaves.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 18px;
+}
+
+a {
+  color: #6B350F;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #6B350F;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+#navbar a {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#navbar a:hover {
+  color: #227322;
+}
+
+#home-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#home-link a {
+  display: inline-block;
+  width: 150%;
+  padding: 10px 20px;
+  background-color: #227322;
+  color: white;
+  border: 4px solid #6B350F;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 70px;
+}
+
+#home-link a:hover {
+  color: #6B350F;
+  background-color: #45a049;
+}
+
+.green-curve {
+  position: relative;
+  margin-top: 60px;
+}
+
+.green-curve::before {
+  content: '';
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #227322;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+#profilepic img {
+  display: block;
+  margin: 0 auto;
+  width: 300px; 
+  height: auto;
+  border-radius: 200px;
+  border: solid 15px #6B350F;
+}
+
+#one {
+  border: 1px solid #6B350F;
+  margin: 20px auto;
+  width: 50%;
+}
+
+#two {
+  border: 1px solid #6B350F;
+  margin: 20px auto;
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+#aboutbody {
+  font-size: 20px;
+  color: #6B350F;
+  padding: 30px 150px 30px 150px;
+}
+
+#navbarabout {
+  display: flex;
+  justify-content: center;
+}
+
+#navbarabout a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  background-color: #F0F0E6;
+  color: #6B350F;
+  text-decoration: none;
+  border: 2px solid #6B350F;
+  border-radius: 5px;
+}
+
+#navbarabout a:hover {
+  background-color: tan;
+}
+
+#grad-container {
+  display: flex;
+  align-items: center;
+}
+
+#grad {
+  width: 300px;
+  height: auto;
+}
+
+#grad-text {
+  margin-left: 20px;
+}
+
+#nurse-container {
+  display: flex;
+  align-items: center;
+}
+
+#nurse {
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+}
+
+#nurse-text {
+  margin-right: 20px;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+}
+
+#image-container img {
+  margin-right: 30px;
+  width: auto;
+  height: 400px;
+}
+
+#coldplay {
+  display: block;
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#sunset {
+  display: block;
+  width: 650px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#cook-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#cook-container img {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+}
+
+#cook-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#hike-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#hike {
+  width: 300px;
+  height: auto;
+}
+
+#hike-text {
+  margin-left: 20px;
+}
+
+#plant-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#plant {
+  width: 300px;
+  height: auto;
+}
+
+#plant-text {
+  margin-right: 20px;
+}
+
+figcaption {
+  text-align: center;
+}
